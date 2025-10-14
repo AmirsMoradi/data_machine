@@ -1,14 +1,14 @@
-#⚡ Daily Residential Electricity Consumption Forecasting (XGBoost Time Series Model)
+# ⚡ Daily Residential Electricity Consumption Forecasting (XGBoost Time Series Model)
 This repository contains the complete solution for a high-accuracy, daily electricity consumption forecasting project using Extreme Gradient Boosting (XGBoost), focused on robust feature engineering and hyperparameter tuning to achieve superior predictive performance.
 
 The final model achieves near-perfect accuracy with an R 
 2
   score of 0.9956 on the test set and successfully resolves a major challenge of predicting anomalous low-consumption days (e.g., holidays) by reducing the error on these outliers from ≈250 kWh to just 18.75 kWh.
 
-##🎯 Project Goal
+## 🎯 Project Goal
 To build a highly reliable 1-day-ahead forecasting model for residential electricity consumption (kWh) by integrating time-series data with external weather features and specialized lagged variables.
 
-##🛠️ Methodology and Advanced Features
+## 🛠️ Methodology and Advanced Features
 The project was executed using a rigorous time-series approach to prevent data leakage and ensure model generalizability.
 
 1. Data Processing and Integration
@@ -46,7 +46,7 @@ subsample: 0.7
 
 colsample_bytree: 0.7
 
-##📊 Final Results and Performance
+## 📊 Final Results and Performance
 The final model was rigorously evaluated on the last 30 days of the dataset, which it had never seen during training, confirming excellent generalization and zero overfitting.
 
 1. General Evaluation (Last 30 Days)
@@ -71,7 +71,7 @@ Absolute Error: 18.75 kWh
 
 Conclusion: The final model successfully reduced the initial outlier error (which was ≈250 kWh) to 18.75 kWh, confirming the efficacy of the advanced Lag_7 features combined with optimal hyperparameters.
 
-##📈 Visual Performance
+## 📈 Visual Performance
 The plot above visually confirms the exceptional accuracy, showing a near-perfect overlap between the Actual Consumption and the Model Prediction.
 <img width="1500" height="400" alt="Figure_2" src="https://github.com/user-attachments/assets/1b479da9-d50d-4465-9b11-662595fdfcb1" />
 <img width="1500" height="600" alt="Figure_1" src="https://github.com/user-attachments/assets/92a729b9-2afe-4883-b0fd-b06d4b5dba88" />
