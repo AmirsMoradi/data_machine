@@ -1,0 +1,2 @@
+series,start_idx,end_idx,start_time,end_time,win_start,win_end,score_max,score_mean,threshold
+G-3,0,7906,2020-01-01 00:00:00,2020-01-01 02:11:46,0,7847,0.9616589290755135,0.007638910085534953,0.0
