@@ -1,0 +1,19 @@
+{
+  "precision": 0.2290836653386454,
+  "recall": 1.0,
+  "f1": 0.3727714748784441,
+  "roc_auc": 0.15934486288454286,
+  "auprc": 0.13300871429621938,
+  "threshold": 0.004501557975475277,
+  "window": 60,
+  "stride": 1,
+  "topk_time": 0.2,
+  "topk_feat": 0.3,
+  "alpha": 0.7,
+  "global_model": true,
+  "fine_tuned": true,
+  "has_positive": true,
+  "enriched_features": true,
+  "roll_win": 30,
+  "threshold_strategy": "best_f1"
+}
